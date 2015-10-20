@@ -1,0 +1,25 @@
+{
+  "name": "pm2test",
+  "version": "0.1.0",
+  "description": "pm2 app.json test.",
+  "main": "index.js",
+  "dependencies": {
+    "pm2": "^0.15.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfer/nodejs_test.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pm2",
+    "app.json"
+  ],
+  "author": "Nfer Zhuang",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nfer/nodejs_test/issues"
+  },
+  "homepage": "https://github.com/nfer/nodejs_test#readme"
+}

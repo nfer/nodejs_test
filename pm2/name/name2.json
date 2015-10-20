@@ -1,0 +1,4 @@
+{
+    "name": "myhttpserver",
+    "script" : "httpserver.js",
+}
