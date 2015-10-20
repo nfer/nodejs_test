@@ -1,0 +1,4 @@
+{
+    "script" : "httpserver.js",
+    "instances": -1,
+}
