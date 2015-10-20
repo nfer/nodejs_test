@@ -2,7 +2,7 @@
 
 ## name test 1
 
-Name field isn't required, without this field, pm2 use file's name as app name:
+Name field isn't required, without this field, pm2 use script's name as App name:
 ```
 {
     "script" : "httpserver.js",
@@ -20,7 +20,7 @@ result:
 ```
 
 ## name test 2
-If has name field in app.json, pm2 use it as app name:
+If there has name field in app.json, pm2 use it as App name:
 ```
 {
     "name": "myhttpserver",
@@ -39,7 +39,7 @@ result:
 ```
 
 ## name test 3
-If name field contains space, pm2 shows it still with space:
+If name field contains spaces, pm2 shows it still with spaces:
 ```
 {
     "name": "my http server",
@@ -57,7 +57,7 @@ result:
 └────────────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────────────┴──────────┘
 ```
 
-But in this situation, you need delete this app with below command:
+But in this situation, if you want to delete it by name, you need type the name with single quote surrounded:
 ```
 pm2 delete 'my http server'
 ```
