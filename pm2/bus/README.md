@@ -55,6 +55,7 @@ pm2:kill
 ```
 
 From the result, we can get some conclusions:
+
 1. if the pm2 doesn't started when `pm2.launchBus()`, nothing would callback, just wait
 2. after pm2 is started by `list` command, `pm2.launchBus()` callback comes
 3. only the first time pm2 started cause `pm2.launchBus()`, then `pm2.launchBus()` works constantly
