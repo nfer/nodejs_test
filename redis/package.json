@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-pm2-test",
+  "name": "nodejs-redis-test",
   "version": "0.1.0",
-  "description": "nodejs pm2 test.",
+  "description": "nodejs redis test.",
   "main": "index.js",
   "dependencies": {
-    "pm2": "^0.15.6"
+    "redis": "^2.0.0"
   },
   "devDependencies": {},
   "repository": {
